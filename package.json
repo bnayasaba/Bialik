@@ -1,0 +1,12 @@
+{
+  "name": "bialik-attendance",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --check app.js && node --check api/attendance.js"
+  }
+}
